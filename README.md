@@ -4,7 +4,7 @@
 
 This repository presents a solution for modeling click-through rates (CTR) for personalized credit card offerings in the American Express Campus Challenge 2025.
 
-- **CTR Prediction**: Formulated as probabilistic ranking, estimating \(P(\text{click}|\text{impression})\) for each user-offer pair.
+- **CTR Prediction**: Formulated as probabilistic ranking, estimating \(P({click}|{impression})) for each user-offer pair.
 - **Features**: Engineered high-signal inputs from temporal purchase patterns, event sequences, and offer metadata embeddings.
 - **Modeling**: Ensemble of LightGBM and XGBoost using cross-validation and optimized for AUC and MAP@7.
 - **Evaluation**: Achieved 0.917 AUC and 0.433 MAP@7 on validation.
